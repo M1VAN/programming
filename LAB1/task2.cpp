@@ -19,8 +19,8 @@ int main()
 
     // Вывод всех переменных в формате: «ИМЯ ПЕРЕМЕННОЙ = ЗНАЧЕНИЕ»
     // Примечание: minMemVar приводится к int для числового вывода, иначе выведется как ASCII-символ
-    std::cout << "int_var = " << intVar << std::endl;
-    std::cout << "float_var = " << floatVar << std::endl;
+    std::cout << "intVar = " << intVar << std::endl;
+    std::cout << "floatVar = " << floatVar << std::endl;
     std::cout << "minMemVar = " << static_cast<int>(minMemVar) << std::endl;
 
     std::cout << std::endl;
